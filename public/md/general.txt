@@ -1,0 +1,42 @@
+# Documentation
+
+CSVKanban turns CSV files into a simple kanban board.
+The data stays in the browser and on your local filesystem.
+Contributions are welcome, see [GitHub](https://github.com/spmvg/csvkanban).
+
+## Example
+Take the following CSV file as an example.
+There are 3 field names in the header of this particular example: _Task_, _Assignee_ and _State_.
+The choice of the field names is up to you.
+
+```
+Task,Assignee,State
+Make a business plan,Alice,2 In review
+Acquire funding,Bob,1 In progress
+Hire employees,Charlie,
+Catering,Dan,3 Done
+Marketing,,
+```
+
+This CSV file can be opened in CSVKanban.
+The rows are turned into items on the board.
+
+![Example item.](../example_item.png "Example item.") 
+
+Initially, all items will be placed in the leftmost column since no field has been selected in the dropdown.
+Use the dropdown to select which field will be used to display the items as columns in the kanban board.
+In this example, let's choose the _State_ field for the columns of the kanban board.
+
+![Example kanban board.](../example_kanban_board.png "Example kanban board.")
+
+Note that the values of the _State_ field are now the columns of the kanban board.
+The columns of the kanban board are sorted lexographically.
+The items without a value in the _State_ field are still in the leftmost column.
+As with the field names, the choice of the columns of the kanban board is up to you.
+
+You can modify the data in the kanban board:
+* Drag items between columns,
+* Modify fields,
+* Add/delete items.
+
+When you're done, save the board back to CSV by clicking the save icon.
