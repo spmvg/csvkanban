@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Documentation from '@/components/Documentation'
+import DocsPage from '@/components/DocsPage'
 import NotFound from '@/components/NotFound'
 import CSVKanban from '@/components/CSVKanban'
 
@@ -14,7 +14,7 @@ const router = createRouter({
     {
       path: '/docs/:filename',
       name: 'Documentation',
-      component: Documentation
+      component: DocsPage
     },
     {
       path: '/:pathMatch(.*)*',
