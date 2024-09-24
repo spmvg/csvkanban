@@ -51,5 +51,6 @@ export default {
     border: 1px solid #222;
     background-color: rgb(43, 43, 43);
     cursor: grab;
+    border-radius: 5px;
   }
 </style>

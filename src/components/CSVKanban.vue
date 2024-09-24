@@ -306,6 +306,7 @@
   .md {
     text-align: left;
     background-color: rgb(43, 43, 43);
+    border-radius: 10px;
   }
 
   .column {

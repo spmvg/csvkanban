@@ -61,22 +61,22 @@
     background-color: rgb(25, 25, 25) !important;
   }
 
-    .dark-mode-input:focus {
-      box-shadow: 0 0 8px rgb(0, 0, 0) !important;
-    }
+  .dark-mode-input:focus {
+    box-shadow: 0 0 8px rgb(0, 0, 0) !important;
+  }
 
   .dark-mode-button {
     background-color: rgb(25, 25, 25) !important;
     border-color: #222 !important;
   }
 
-    .dark-mode-button:hover {
-      box-shadow: 0 0 8px rgb(0, 0, 0) !important;
-    }
+  .dark-mode-button:hover {
+    box-shadow: 0 0 8px rgb(0, 0, 0) !important;
+  }
 
-    .dark-mode-button:focus {
-      box-shadow: 0 0 8px rgb(0, 0, 0) !important;
-    }
+  .dark-mode-button:focus {
+    box-shadow: 0 0 8px rgb(0, 0, 0) !important;
+  }
 
   .dark-mode-list {
     color: #ddd !important;
@@ -84,7 +84,7 @@
     border-color: #222 !important;
   }
 
-    .dark-mode-list:hover {
-      background-color: rgb(50, 50, 50) !important;
-    }
+  .dark-mode-list:hover {
+    background-color: rgb(50, 50, 50) !important;
+  }
   </style>
